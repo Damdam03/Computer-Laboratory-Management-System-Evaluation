@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Item Management Evaluation Results</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <style>
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        section.issue {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        section.issue img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+        section.issue h3 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        section.issue p {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="/img/logo.png" alt="Laboratory Management System" />LMS</div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../decide.html">DECIDE Framework</a></li>
+                <li><a href="../results.html">Evaluation Results</a></li>
+                <li><a href="../improvements.html">Proposed Improvements</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Item Management Evaluation Results</h1>
+
+        <section class="issue">
+            <img src="/img/items_dropdown_issue.png" alt="Screenshot of Issue" />
+            <h3>Heuristic Violated: Visibility of System Status</h3>
+            <p><strong>Description and Impact on User Experience: </strong> While immediate feedback is provided, adding loading indicators during AJAX operations would enhance user awareness of ongoing processes.</p>
+
+            <h3>Heuristic Violated: Match Between System and the Real World</h3>
+            <p><strong>Description and Impact on User Experience:</strong> The terminology is clear and logical, but ensuring consistent use throughout the interface will reinforce user understanding.</p>
+
+            <h3>Heuristic Violated: User Control and Freedom</h3>
+            <p><strong>Description and Impact on User Experience:</strong> Users can cancel actions by closing modals, but adding explicit Cancel buttons on forms would provide clearer options for users to backtrack.</p>
+
+            <h3>Heuristic Violated: Consistency and Standards</h3>
+            <p><strong>Description and Impact on User Experience:</strong> The design maintains consistent UI patterns, which is positive. Continuing to uphold these standards will prevent user confusion.</p>
+
+            <h3>Heuristic Violated: Error Prevention</h3>
+            <p><strong>Description and Impact on User Experience:</strong> The system effectively uses required fields and confirmation dialogs to prevent errors. Adding inline validation messages would further assist users in correcting input mistakes. </p>
+
+            <h3>Heuristic Violated: Recognition Rather Than Recall</h3>
+            <p><strong>Description and Impact on User Experience:</strong> Clear labels and image previews are beneficial, but providing tooltips or help icons for complex fields would reduce cognitive load.</p>
+
+            <h3>Heuristic Violated: Flexibility and Efficiency of Use</h3>
+            <p><strong>Description and Impact on User Experience:</strong> The absence of keyboard shortcuts limits efficiency. Implementing keyboard navigation and shortcuts would cater to both novice and expert users.</p>
+
+            <h3>Heuristic Violated: Aesthetic and Minimalist Design</h3>
+            <p><strong>Description and Impact on User Experience:</strong> The clean UI is effective, but hiding rarely used options would further reduce clutter and enhance focus on essential tasks.</p>
+
+            <h3>Heuristic Violated: Help Users Recognize, Diagnose, and Recover from Errors</h3>
+            <p><strong>Description and Impact on User Experience:</strong> While error messages are displayed in alert boxes, using inline error messages near fields would provide immediate context for users.</p>
+
+            <h3>Heuristic Violated: Help and Documentation</h3>
+            <p><strong>Description and Impact on User Experience:</strong> The lack of visible help or documentation links is a gap. Providing contextual help or documentation links would empower users to find assistance when needed.</p>
+        </section>
+    </main>
+</body>
+</html>

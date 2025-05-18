@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dashboard Page Evaluation Results</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <style>
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        section.issue {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        section.issue img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+        section.issue h3 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        section.issue p {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="/img/logo.png" alt="Laboratory Management System" />LMS</div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../decide.html">DECIDE Framework</a></li>
+                <li><a href="../results.html">Evaluation Results</a></li>
+                <li><a href="../improvements.html">Proposed Improvements</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Dashboard Page Evaluation Results</h1>
+
+        <section class="issue">
+            <img src="/img/dp_issue1.png" alt="Screenshot of Issue" />
+            <h3>Heuristic Violated: User Control and Freedom</h3>
+            <p><strong>Description:</strong>No visible "Logout" button directly on the dashboard view (only available in dropdown).</p>
+            <p><strong>Impact on User Experience:</strong>  Hiding the "Logout" button in a dropdown reduces user control and can frustrate users who want a quick and obvious way to exit their account. </p>
+        </section>
+        <section class="issue">
+            <img src="/img/dp_issue2.png" alt="Screenshot of Issue" />
+            <h3>Heuristic Violated: Aesthetic and Minimalist Design</h3>
+            <p><strong>Description:</strong>Overall clean UI, but the large photo in the dashboard takes significant space and may not add functional value.</p>
+            <p><strong>Impact on User Experience:</strong> A large, non-functional photo in the dashboard can create visual clutter,reducing focus on important content and making the interface feel less efficient.</p>
+        </section>
+    </main>
+</body>
+</html>

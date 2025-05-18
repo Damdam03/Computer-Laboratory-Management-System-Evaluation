@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login Page Evaluation Results</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <style>
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        section.issue {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        section.issue img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+        section.issue h3 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        section.issue p {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="/img/logo.png" alt="Laboratory Management System" />LMS</div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../decide.html">DECIDE Framework</a></li>
+                <li><a href="../results.html">Evaluation Results</a></li>
+                <li><a href="../improvements.html">Proposed Improvements</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Login Page Evaluation Results</h1>
+
+        <section class="issue">
+            <img src="/img/lp_issue5.png" alt="Screenshot of Issue" />
+            <h3>Heuristic Violated: Visibility of System Status</h3>
+            <p><strong>Description:</strong> Introduce a loading spinner or animation to provide feedback during processing, ensuring users know their actions are being handled.</p>
+            <p><strong>Impact on User Experience:</strong> Users may be uncertain if their actions were successful, leading to confusion and repeated attempts.</p>
+        </section>
+        <section class="issue">
+            <img src="/img/lp_issue1.png" alt="Screenshot of Issue" />
+            <h3>Heuristic Violated: User Control and Freedom</h3>
+            <p><strong>Description:</strong> Incorporate a "Cancel" button to allow users to easily backtrack or clear fields, enhancing control over their actions.</p>
+            <p><strong>Impact on User Experience:</strong> User may want to change their mind.</p>
+        </section>
+        <section class="issue">
+            <img src="/img/lp_issue3.png" alt="Screenshot of Issue" />
+            <h3>Heuristic Violated: Error Prevention</h3>
+            <p><strong>Description:</strong> Add a caps-lock warning on the password field to prevent common errors and improve security.</p>
+            <p><strong>Impact on User Experience:</strong> User may be confused why their password is incorrect.</p>
+        </section>
+        <section class="issue">
+            <img src="/img/lp_issue5.png" alt="Screenshot of Issue" />
+            <h3>Heuristic Violated: Recognition Rather Than Recall</h3>
+            <p><strong>Description:</strong> Provide hints for password rules, such as "Default: admin/admin123" or a "Forgot password" link, to assist users in recalling their credentials.</p>
+            <p><strong>Impact on User Experience:</strong> User may be confused why their password is incorrect.</p>
+        </section>
+        <section class="issue">
+            <img src="/img/lp_issue4.png" alt="Screenshot of Issue" />
+            <h3>Heuristic Violated: Flexibility and Efficiency of Use</h3>
+            <p><strong>Description:</strong> Implement a "Remember Me" checkbox to streamline future logins for repeat users.</p>
+            <p><strong>Impact on User Experience:</strong> User may want to login immediately.</p>
+
+            <h3>Heuristic Violated: Aesthetic and Minimalist Design</h3>
+            <p><strong>Description:</strong> Improve focus by adding a translucent dark overlay to the background, reducing distractions and enhancing the login box's visibility.</p>
+            <p><strong>Impact on User Experience:</strong> The user might be more productive.</p>
+
+            <h3>Heuristic Violated: Help Users Recognize, Diagnose, and Recover from Errors</h3>
+            <p><strong>Description:</strong> Enhance error messages by including suggestions for next steps, such as "Please try again or contact admin for help."</p>
+            <p><strong>Impact on User Experience:</strong> User will be more familiar to the system.</p>
+
+            <h3>Heuristic Violated: Help and Documentation</h3>
+            <p><strong>Description:</strong> Add a "Need help?" link or tooltip to offer immediate assistance, ensuring users can find help when needed.</p>
+            <p><strong>Impact on User Experience:</strong> User will be able to navigate and use the system easily .</p>
+        </section>
+    </main>
+</body>
+</html>
